@@ -9,7 +9,8 @@ profile:
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>Room 2C60.2, Engineering Building</p>
+    <p>Room 2C60.2,<\p>
+    <p>Engineering Building</p>
     <p>57 Campus Dr</p>
     <p>Saskatoon SK Canada S7H 2L9</p>
 
