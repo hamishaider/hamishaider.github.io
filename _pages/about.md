@@ -7,7 +7,7 @@ subtitle: AI accelerator design | RISC-V | FPGA | Student Supervision
 profile:
   align: right
   image: prof_pic.jpg
-  image_circular: true # crops the image to make it circular
+  image_circular: false # crops the image to make it circular
   more_info: >
     <p>Room 2C60.2, Engineering Building</p>
     <p>57 Campus Dr</p>
