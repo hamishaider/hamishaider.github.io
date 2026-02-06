@@ -29,7 +29,7 @@ To give your project a background in the portfolio page, just add the img tag to
                 {% include figure.liquid loading="eager" path="assets/img/approx_mult/bmult.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
             </div>
             <div class="caption">
-                Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
+                Fig. 1: Block diagram of the proposed Extended Exact Multiplier: An exact Booth multiplier with proposed modifications.
             </div>
         </div>
     </div>
@@ -39,7 +39,7 @@ To give your project a background in the portfolio page, just add the img tag to
                 {% include figure.liquid loading="eager" path="assets/img/approx_mult/po2_mult.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
             </div>
             <div class="caption">
-                Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
+                Fig. 2: Block diagram of the proposed PO2 Multiplier.
             </div>
         </div>
     </div>
@@ -51,14 +51,25 @@ You describe how you toiled, sweated, _bled_ for your project, and then... you r
 
 <div class="row justify-content-sm-center">
     <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/approx_mult/param_btrunc_fig.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        <div class="row">
+            <div class="col-sm">
+                {% include figure.liquid path="assets/img/approx_mult/param_btrunc_fig.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+            </div>
+        </div>
+        <div class="caption">
+            You can also have artistically styled 2/3 + 1/3 images, like these.
+        </div>
     </div>
     <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/approx_mult/dra_block_diagram.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        <div class="row">
+            <div class="col-sm">
+                {% include figure.liquid path="assets/img/approx_mult/dra_block_diagram.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+            </div>
+        </div>
+        <div class="caption">
+            You can also have artistically styled 2/3 + 1/3 images, like these.
+        </div>
     </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
 </div>
 
 The code is simple.
@@ -72,7 +83,7 @@ Here's the code for the last row of images above:
     </div>
 </div>
 <div class="caption">
-    This image can also have a caption. It's like magic.
+A chart showing the trade-offs between NMED and PDP for different 16-bit multipliers included in our experiments. The chart is visualizing the data available in Table 3.4. The proposed designs are shown with bold labels in the char
 </div>
 
 <div class="row">
