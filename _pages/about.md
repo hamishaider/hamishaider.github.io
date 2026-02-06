@@ -28,6 +28,13 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Hi! I'm a postdoctoral researcher in Electrical and Computer Engineering at the University of Saskatchewan, where I work with Dr. Seokbum Ko. I recently completed my PhD and now focus on building secure and efficient computing architectures for AI at the edge. My work sits at the intersection of RISC-V systems, FPGA acceleration, and hardware–software co-design, with a particular interest in deploying privacy-sensitive, AI including large language models, into real, regulated environments such as healthcare.
+I strive to understand how secure, efficient AI systems can be designed to operate reliably in real-world, resource-constrained environments.
 
-I enjoy working close to the hardware: designing AI accelerators and secure SoCs, exploring near-data and multi-precision computing, and building and verifying systems in Verilog/SystemVerilog with UVM. I’m especially excited by reconfigurable platforms and emerging paradigms like RISC-V and Apple silicon, and how they enable new architectural ideas. Beyond research, I always take initiative to improve the productivity of the teams I lead. I plan to move faster, standardizing design flows, building shared libraries, and helping students ramp up quickly so they can focus on meaningful problems instead of rebuilding the basics. I’m always happy to share my work, exchange ideas, and explore collaborations.
+As an engineer and researcher, I use computing architectures and hardware systems to explore
+how edge AI can be deployed under strict energy, latency, and privacy constraints,
+how security and privacy mechanisms such as differential privacy can be embedded directly into hardware,
+and how architectural choices in RISC-V, FPGA-based acceleration, and hardware–software co-design impact scalability and deployability.
+
+My work focuses on AI accelerators, secure SoCs, near-data and multi-precision computing, with applications in privacy-sensitive AI and large language models for regulated domains such as healthcare. I have hands-on experience with Verilog/SystemVerilog, UVM-based verification, and system-level design, and have led efforts to standardize RTL and verification frameworks, reducing project setup and onboarding time by approximately 40–60%.
+
+I am currently a postdoctoral researcher in Electrical and Computer Engineering at the University of Saskatchewan, working with Dr. Seokbum Ko, and I collaborate closely with students and researchers across academia and industry to build practical, secure AI hardware systems.
