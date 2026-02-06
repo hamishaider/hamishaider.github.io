@@ -57,7 +57,7 @@ You describe how you toiled, sweated, _bled_ for your project, and then... you r
             </div>
         </div>
         <div class="caption">
-            You can also have artistically styled 2/3 + 1/3 images, like these.
+            Fig. 3: Block diagram of the proposed DRA scheme for an N-bit approximate Booth multiplier, where D<sub>max</sub> = N/2.
         </div>
     </div>
     <div class="col-sm-4 mt-3 mt-md-0">
@@ -67,7 +67,7 @@ You describe how you toiled, sweated, _bled_ for your project, and then... you r
             </div>
         </div>
         <div class="caption">
-            You can also have artistically styled 2/3 + 1/3 images, like these.
+            Fig. 4: The hardware architecture of the proposed approximate Booth multiplier using the proposed DRA scheme. The figure shows a parameterized general design that has all the possible modules included. The number of Booth encoder blocks depends on the overall bit-width of the multiplier (N). 
         </div>
     </div>
 </div>
@@ -83,7 +83,7 @@ Here's the code for the last row of images above:
     </div>
 </div>
 <div class="caption">
-A chart showing the trade-offs between NMED and PDP for different 16-bit multipliers included in our experiments. The chart is visualizing the data available in Table 3.4. The proposed designs are shown with bold labels in the char
+Fig. 5: A chart showing the trade-offs between NMED and PDP for different 16-bit multipliers included in our experiments. The chart is visualizing the data available in Table 3.4. The proposed designs are shown with bold labels in the char
 </div>
 
 <div class="row">
@@ -93,7 +93,7 @@ A chart showing the trade-offs between NMED and PDP for different 16-bit multipl
 </div>
 
 <div class="caption">
-    This image can also have a caption. It's like magic.
+    Table I: Performance report of the proposed signed 8-bit multipliers and the comparison with the existing work from the literature.
 </div>
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
@@ -101,7 +101,7 @@ A chart showing the trade-offs between NMED and PDP for different 16-bit multipl
     </div>
 </div>
 <div class="caption">
-    This image can also have a caption. It's like magic.
+    Table II: The implementational and experimental results for each of the 16-bit multipliers in our experiments.
 </div>
 {% raw %}
 
