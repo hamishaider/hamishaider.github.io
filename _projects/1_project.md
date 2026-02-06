@@ -8,6 +8,8 @@ category: work
 related_publications: true
 ---
 {% cite haider2023approx %}
+{% cite haider2023decoder %}
+
 Every project has a beautiful feature showcase page.
 It's easy to include images in a flexible 3-column grid format.
 Make your photos 1/3, 2/3, or full width.
@@ -22,6 +24,13 @@ To give your project a background in the portfolio page, just add the img tag to
     ---
 
 <div class="row">
+    <div class="col-sm-4 mt-3 mt-md-0">
+        <div class="row">
+            <div class="col-sm mt-3 mt-md-0">
+               askldjlkasjdklaadsdawieqoieuqoiweyoiqyeioquyweoiyqoieyoiqwyeioqywoieyqwoiyroiqwyrioqywioryqiowyroiqywioryqiowryioqyrwio 
+            </div>
+        </div>
+    </div>
     <div class="col-sm-8 mt-3 mt-md-0">
         <div class="row">
             <div class="col-sm mt-3 mt-md-0">
@@ -31,9 +40,6 @@ To give your project a background in the portfolio page, just add the img tag to
                 Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
             </div>
         </div>
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-       askldjlkasjdklaadsdawieqoieuqoiweyoiqyeioquyweoiyqoieyoiqwyeioqywoieyqwoiyroiqwyrioqywioryqiowyroiqywioryqiowryioqyrwio 
     </div>
 </div>
 <div class="row">
