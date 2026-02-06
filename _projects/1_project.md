@@ -1,14 +1,13 @@
 ---
 layout: page
 title: Approximate Computation Units
-description: Novel Compute Units for enabling efficient AI at Edge
+description: Novel Compute Units for enabling compressed AI at Edge
 img: assets/img/approx_mult/po2_mult.jpg
 importance: 1
 category: work
 related_publications: true
 ---
 {% cite haider2023approx %}
-{% cite haider2023decoder %}
 Every project has a beautiful feature showcase page.
 It's easy to include images in a flexible 3-column grid format.
 Make your photos 1/3, 2/3, or full width.

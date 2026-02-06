@@ -1,11 +1,11 @@
 ---
 layout: page
-title: project 2
-description: a project with a background image and giscus comments
-img: assets/img/param_btrunc_fig.jpg
+title: Efficient Approximation in AI CUs
+description: Improving the efficiency of Approximate Compute Units for AI on Edge via algorithmic optimizations.
+img: assets/img/approx_mult/param_btrunc_fig.jpg
 importance: 2
 category: work
-giscus_comments: true
+related_publications: true
 ---
 
 Every project has a beautiful feature showcase page.
