@@ -156,13 +156,13 @@ layout: default
               {% if section_title == 'education' %}
                 {% assign entries = section_entries %}
                 {% include cv/education.liquid %}
-              {% elsif section_title == 'Awards' or section_title == 'Honors and Awards' %}
+              {% elsif section_title == 'honors' or section_title == 'Honors and Awards' %}
                 {% assign entries = section_entries %}
                 {% include cv/awards.liquid %}
               {% elsif section_title == 'publication' %}
                 {% assign entries = section_entries %}
                 {% include cv/publications.liquid %}
-              {% elsif section_title == 'Skills' %}
+              {% elsif section_title == 'skills' %}
                 {% assign entries = section_entries %}
                 {% include cv/skills.liquid %}
               {% elsif section_title == 'Languages' %}
