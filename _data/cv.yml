@@ -39,18 +39,6 @@ cv:
           - "Developed hardware–software co-designed systems enabling AI deployment on resource-constrained edge platforms with up to ~50% reduction in LLM computation cost."
           - "Conducted applied research on reliable and secure AI systems for healthcare applications."
           - "Nominated for the Best Thesis Defence Award (2026). Awaiting decision."
-
-      - company: "National University of Sciences and Technology (NUST)"
-        position: "Research Assistant"
-        start_date: "2019-01"
-        end_date: "2019-12"
-        location: "Islamabad, Pakistan"
-        summary: "Early-stage research in computer architecture under the supervision of Dr. Rehan Ahmed."
-        highlights:
-          - "Pioneered RISC-V architecture research at NUST."
-          - "Contributed to the design of Pakistan’s first in-house RISC-V microcontroller."
-          - "Supported RTL development and architectural validation for custom processor designs."
-
       - company: "University of Saskatchewan"
         position: "Sessional Lecturer & Graduate Teaching Fellow (ECE)"
         start_date: "2023-01"
@@ -62,6 +50,16 @@ cv:
           - "Delivered lectures, designed assessments, and supervised labs covering modern network architectures."
           - "Graduate Teaching Fellow and Teaching Assistant for CME 433: Computer Architecture Design (40 students)."
           - "Mentored students across three academic years (2022–2024), supporting labs, grading, and project guidance."
+      - company: "National University of Sciences and Technology (NUST)"
+        position: "Research Assistant"
+        start_date: "2019-01"
+        end_date: "2019-12"
+        location: "Islamabad, Pakistan"
+        summary: "Early-stage research in computer architecture under the supervision of Dr. Rehan Ahmed."
+        highlights:
+          - "Pioneered RISC-V architecture research at NUST."
+          - "Contributed to the design of Pakistan’s first in-house RISC-V microcontroller."
+          - "Supported RTL development and architectural validation for custom processor designs."
       - company: "Freelancer"
         position: "Software Engineer"
         date:
