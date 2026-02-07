@@ -1,8 +1,11 @@
 {% comment %}
   Unified work/experience entry renderer for both RenderCV and JSONResume formats
-  Handles both:
-  - RenderCV: company, position, start_date, end_date, location, url, summary, highlights
-  - JSONResume: name, position, startDate, endDate, location, url, summary, highlights
+
+  RenderCV fields:
+  - company, position, start_date, end_date, location, url, summary, highlights
+
+  JSONResume fields:
+  - name, position, startDate, endDate, location, url, summary, highlights
 {% endcomment %}
 
 <ul class="card-text font-weight-light list-group list-group-flush">
@@ -10,38 +13,67 @@
     <li class="list-group-item">
       <div class="row">
         <div class="col-xs-2 col-sm-2 col-md-2 text-center date-column">
-          {% capture start_date %}
-            {% if entry.start_date %}{{ entry.start_date }}{% elsif entry.startDate %}{{ entry.startDate }}{% endif %}
-          {% endcapture %}
-          {% capture end_date %}
-            {% if entry.end_date %}{{ entry.end_date }}{% elsif entry.endDate %}{{ entry.endDate }}{% endif %}
-          {% endcapture %}
+          {% comment %} Normalize start/end dates across schemas {% endcomment %}
+          {% assign start_raw = '' %}
+          {% if entry.start_date %}{% assign start_raw = entry.start_date %}{% endif %}
+          {% if start_raw == '' and entry.startDate %}{% assign start_raw = entry.startDate %}{% endif %}
 
-          {% if start_date != '' %}
-            {% comment %} Extract year only from dates like "1933-01-01" or just use "1933" as is {% endcomment %}
-            {% assign startDate = start_date | split: '-' | first %}
-            {% assign endDate = end_date | split: '-' | first | default: 'Present' %}
-            {% assign date = startDate | append: ' - ' | append: endDate %}
-          {% else %}
-            {% assign date = '' %}
+          {% assign end_raw = '' %}
+          {% if entry.end_date %}{% assign end_raw = entry.end_date %}{% endif %}
+          {% if end_raw == '' and entry.endDate %}{% assign end_raw = entry.endDate %}{% endif %}
+
+          {% comment %} Display label for "present" (prefer site locale if available) {% endcomment %}
+          {% assign present_label = 'Present' %}
+          {% if site.data.rendercv and site.data.rendercv.locale and site.data.rendercv.locale.present %}
+            {% assign present_label = site.data.rendercv.locale.present %}
+          {% endif %}
+
+          {% comment %} Extract years; handle 'present' / empty end dates {% endcomment %}
+          {% assign start_year = '' %}
+          {% if start_raw != '' %}
+            {% assign start_year = start_raw | split: '-' | first %}
+          {% endif %}
+
+          {% assign end_year = '' %}
+          {% if end_raw != '' %}
+            {% assign end_lower = end_raw | downcase %}
+            {% if end_lower == 'present' %}
+              {% assign end_year = present_label %}
+            {% else %}
+              {% assign end_year = end_raw | split: '-' | first %}
+            {% endif %}
+          {% endif %}
+
+          {% assign date = '' %}
+          {% if start_year != '' %}
+            {% if end_year != '' %}
+              {% assign date = start_year | append: ' - ' | append: end_year %}
+            {% else %}
+              {% assign date = start_year %}
+            {% endif %}
           {% endif %}
 
           <table class="table-cv">
             <tbody>
-              <tr>
-                <td>
-                  <span class="badge font-weight-bold danger-color-dark text-uppercase align-middle" style="min-width: 75px">{{ date }}</span>
-                </td>
-              </tr>
-              {% capture location %}
-                {% if entry.location %}{{ entry.location }}{% endif %}
-              {% endcapture %}
-              {% if location != '' %}
+              {% if date != '' %}
+                <tr>
+                  <td>
+                    <span class="badge font-weight-bold danger-color-dark text-uppercase align-middle" style="min-width: 75px">
+                      {{ date }}
+                    </span>
+                  </td>
+                </tr>
+              {% endif %}
+
+              {% comment %} Location (RenderCV + JSONResume) {% endcomment %}
+              {% assign loc = '' %}
+              {% if entry.location %}{% assign loc = entry.location %}{% endif %}
+              {% if loc != '' %}
                 <tr>
                   <td>
                     <p class="location">
                       <i class="fa-solid fa-location-dot iconlocation"></i>
-                      {{ location }}
+                      {{ loc }}
                     </p>
                   </td>
                 </tr>
@@ -49,33 +81,40 @@
             </tbody>
           </table>
         </div>
+
         <div class="col-xs-10 col-sm-10 col-md-10 mt-2 mt-md-0">
-          {% capture position_title %}
-            {% if entry.position %}{{ entry.position }}{% endif %}
-          {% endcapture %}
+          {% comment %} Position title {% endcomment %}
+          {% assign position_title = '' %}
+          {% if entry.position %}{% assign position_title = entry.position %}{% endif %}
 
-          {% if entry.url %}
-            <h6 class="title font-weight-bold ml-1 ml-md-4">
-              <a href="{{ entry.url }}">{{ position_title }}</a>
-            </h6>
-          {% elsif position_title != '' %}
-            <h6 class="title font-weight-bold ml-1 ml-md-4">{{ position_title }}</h6>
+          {% if position_title != '' %}
+            {% if entry.url %}
+              <h6 class="title font-weight-bold ml-1 ml-md-4">
+                <a href="{{ entry.url }}">{{ position_title }}</a>
+              </h6>
+            {% else %}
+              <h6 class="title font-weight-bold ml-1 ml-md-4">{{ position_title }}</h6>
+            {% endif %}
           {% endif %}
 
-          {% capture company_name %}
-            {% if entry.name %}{{ entry.name }}{% elsif entry.company %}{{ entry.company }}{% elsif entry.organization %}{{ entry.organization }}{% endif %}
-          {% endcapture %}
-          {% if company_name != '' %}
-            <h6 class="ml-1 ml-md-4" style="font-size: 0.95rem">{{ company_name }}</h6>
+          {% comment %} Company/Organization name (RenderCV + JSONResume) {% endcomment %}
+          {% assign org = '' %}
+          {% if entry.company %}{% assign org = entry.company %}{% endif %}
+          {% if org == '' and entry.name %}{% assign org = entry.name %}{% endif %}
+          {% if org == '' and entry.organization %}{% assign org = entry.organization %}{% endif %}
+
+          {% if org != '' %}
+            <h6 class="ml-1 ml-md-4" style="font-size: 0.95rem">{{ org }}</h6>
           {% endif %}
 
-          {% if entry.summary %}
+          {% comment %} Summary: RenderCV entries may have summary missing/null {% endcomment %}
+          {% if entry.summary and entry.summary != '' %}
             <h6 class="ml-1 ml-md-4" style="font-size: 0.95rem; font-style: italic">
               {{ entry.summary | markdownify | remove: '<p>' | remove: '</p>' }}
             </h6>
           {% endif %}
 
-          {% if entry.highlights %}
+          {% if entry.highlights and entry.highlights.size > 0 %}
             <ul class="items">
               {% for item in entry.highlights %}
                 <li>
