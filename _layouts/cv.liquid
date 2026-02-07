@@ -113,11 +113,11 @@ layout: default
         {% endif %}
 
         <!-- Summary -->
-        {% if cv.summary %}
+        {% if cv.sections['Professional Summary'] %}
           <div class="card mt-3 p-3">
             <h3 class="card-title font-weight-medium">Professional Summary</h3>
             <p>
-              {{ cv.summary | join: ' ' | markdownify | remove: '<p>' | remove: '</p>' }}
+              {{ cv.sections['Professional Summary'] | join: ' ' | markdownify | remove: '<p>' | remove: '</p>' }}
             </p>
           </div>
         {% endif %}
