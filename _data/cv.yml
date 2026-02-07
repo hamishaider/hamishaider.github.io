@@ -3,35 +3,35 @@ cv:
   location: "Canada"
   email: "hamis.haider@gmail.com"
   phone: "+1-639-2954265"
-  website: "https://hamishaider.com"
-
+  website: https://hamishaider.com
   social_networks:
     - network: "LinkedIn"
       username: "hamishaider"
     # - network: "Fiverr"
     #   username: "hyutores"
-    #   url: "https://www.fiverr.com"
-
-  summary:
-    - "I design secure and efficient computing architectures for deployable AI systems, with a focus on edge computing and privacy-sensitive applications. My work spans RISC-V systems, FPGA acceleration, and hardware–software co-design, including support for large language models in regulated domains. I work close to the hardware, developing AI accelerators and secure SoCs using near-data and multi-precision computing, with hands-on RTL design in Verilog/SystemVerilog and UVM-based verification."
-    - "I emphasize scalable engineering practices by building reusable frameworks and streamlined workflows that improve productivity and enable rapid, high-quality system development."
+    #   url: https://www.fiverr.com # Add the full URL here
+  
 
   sections:
+    Professional Summary:
+      - I design secure and efficient computing architectures for deployable AI systems, with a focus on edge computing and privacy-sensitive applications. My work spans RISC-V systems, FPGA acceleration, and hardware–software co-design, including support for large language models in regulated domains. I work close to the hardware, developing AI accelerators and secure SoCs using near-data and multi-precision computing, with hands-on RTL design in Verilog/SystemVerilog and UVM-based verification.
+      - I emphasize scalable engineering practices by building reusable frameworks and streamlined workflows that improve productivity and enable rapid, high-quality system development.
     experience:
       - company: "KoLab, University of Saskatchewan"
         position: "Postdoctoral Fellow"
+        date:
         start_date: "2026-02"
         end_date: "present"
         location: "Saskatoon, SK, Canada"
+        summary:
         highlights:
           - "Developed deep learning models for the detection of gravitational waves in LIGO data"
-          - "Published 3 peer-reviewed research papers about the project and results"
-
+          - "Published [3 peer-reviewed research papers](https://example.com) about the project and results"
       - company: "Freelancer"
         position: "Software Engineer"
+        date:
         start_date: "2018-08"
         end_date: "present"
-        location: "Canada"
         summary: "Selective contract-based software and web engineering projects delivered for external clients. Visit my website for more details."
         highlights:
           - "Developed a 3D door placement and visualization engine for an online retail platform using ray-traced lighting and shadowing to generate near-photorealistic room previews from user images with ~30% improved loading speed than competitors."
@@ -39,41 +39,40 @@ cv:
           - "Consistently exceeded client expectations with early delivery and maintained a 5-star Fiverr rating, with repeat clients and testimonials citing strong communication and problem-solving."
 
     publication:
-      - label: "Publications"
-        details: "Visit my website for publications and links."
-
+      - Visit my website for more details
     projects:
-      - label: "Projects"
-        details: "Visit my website for selected projects and demos."
-
+      - Visit my website for more details
     education:
       - institution: "University of Saskatchewan"
         area: "Electrical and Computer Engineering"
         degree: "PhD"
+        grade:
+        date:
         start_date: "2021-09"
         end_date: "2026-01"
         location: "Saskatoon, SK, Canada"
+        summary:
         highlights:
-          - "Dissertation focused on secure edge AI acceleration and hardware–software co-design."
-
+          - "Working on the optimization of autonomous vehicles in urban environments"
       - institution: "National University of Sciences and Technology (NUST)"
         area: "Electrical Engineering"
         degree: "BS"
+        grade:
+        date:
         start_date: "2017-09"
         end_date: "2021-06"
         location: "Lahore, Punjab, Pakistan"
+        summary:
         highlights:
           - "GPA: 3.9/4.0, ranked 1st out of 100 students"
           - "Awards: Best Senior Project, High Honor"
-
     skills:
       - label: "ASIC & FPGA Design"
-        details: "Verilog/SystemVerilog, RTL design, UVM-based verification, FPGA acceleration"
+        details: ""
       - label: "Programming"
-        details: "Python, C++, Git; web/app development fundamentals; basic DevOps workflows"
+        details: "Proficient with Python, C++, and Git; good understanding of Web, app development, and DevOps"
       - label: "Mathematics"
-        details: "Differential equations, calculus, linear algebra"
+        details: "Good understanding of differential equations, calculus, and linear algebra"
       - label: "Languages"
         details: "English (fluent, CELPIP-G[L/R/W/S]: 12/11/12/11), Urdu (native)"
-
   sort_entries: "none"
