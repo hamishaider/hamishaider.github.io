@@ -8,6 +8,6 @@ category: work
 related_publications: true
 ---
 
-{% cite haiderISCAS2026 %}
+{% cite HaiderISCAS2026 %}
 
 Details coming soon...
