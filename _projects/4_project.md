@@ -3,7 +3,7 @@ layout: page
 title: Reconfigurable AI Compute Units
 description: 
 img: assets/img/approx_mult/param_btrunc_fig.jpg
-importance: 4
+importance: 3
 category: work
 related_publications: true
 ---

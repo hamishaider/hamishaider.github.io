@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Reconfigurable AI Compute Units
+title: Optimizing LLMS for efficient inference on Edge
 description: 
 img: assets/img/approx_mult/param_btrunc_fig.jpg
 importance: 4

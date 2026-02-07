@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Reconfigurable AI Compute Units
+title: Ray-traced Door Simulation Webapp
 description: 
 img: assets/img/approx_mult/param_btrunc_fig.jpg
 importance: 1

@@ -1,9 +1,9 @@
 ---
 layout: page
-title: Reconfigurable AI Compute Units
+title: Novel AI Accelerator with Native Differential Privacy
 description: 
 img: assets/img/approx_mult/param_btrunc_fig.jpg
-importance: 4
+importance: 1
 category: work
 related_publications: true
 ---
