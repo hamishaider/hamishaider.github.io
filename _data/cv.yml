@@ -18,6 +18,52 @@ cv:
       - I emphasize scalable engineering practices by building reusable frameworks and streamlined workflows that improve productivity and enable rapid, high-quality system development.
     experience:
       - company: "KoLab, University of Saskatchewan"
+        position: "Postdoctoral Fellow (ECE)"
+        start_date: "2026-01"
+        end_date: "present"
+        location: "Saskatoon, SK, Canada"
+        summary: "Postdoctoral research focused on secure, privacy-preserving edge AI systems and RISC-V–based hardware acceleration under the supervision of Dr. Seok-Bum Ko."
+        highlights:
+          - "Designed novel edge AI accelerators enabling private and encrypted inference and training for sensitive applications with a ~20% throughput increase."
+          - "Developing RISC-V-baed privacy-preserving AI accelerators integrating differential privacy, cryptographic primitives, and hardware–software co-design."
+          - "Investigating homomorphic encryption and compute-in-memory techniques to reduce latency, energy, and memory overhead in secure AI workloads."
+
+      - company: "KoLab, University of Saskatchewan"
+        position: "Doctoral Researcher, Electrical and Computer Engineering"
+        start_date: "2021-09"
+        end_date: "2025-12"
+        location: "Saskatoon, SK, Canada"
+        summary: "PhD research under Dr. Seok-Bum Ko focused on efficient, reliable, and secure computing architectures for edge AI systems."
+        highlights:
+          - "Designed novel approximate and reconfigurable computing architectures for energy-efficient AI acceleration with up to 60% resource consumption reduction."
+          - "Developed hardware–software co-designed systems enabling AI deployment on resource-constrained edge platforms with up to ~50% reduction in LLM computation cost."
+          - "Conducted applied research on reliable and secure AI systems for healthcare applications."
+          - "Nominated for the Best Thesis Defence Award (2026). Awaiting decision."
+
+      - company: "National University of Sciences and Technology (NUST)"
+        position: "Research Assistant"
+        start_date: "2019-01"
+        end_date: "2019-12"
+        location: "Islamabad, Pakistan"
+        summary: "Early-stage research in computer architecture under the supervision of Dr. Rehan Ahmed."
+        highlights:
+          - "Pioneered RISC-V architecture research at NUST."
+          - "Contributed to the design of Pakistan’s first in-house RISC-V microcontroller."
+          - "Supported RTL development and architectural validation for custom processor designs."
+
+      - company: "University of Saskatchewan"
+        position: "Sessional Lecturer & Graduate Teaching Fellow (ECE)"
+        start_date: "2023-01"
+        end_date: "2025-12"
+        location: "Saskatoon, SK, Canada"
+        summary: "Teaching and curriculum delivery for undergraduate computer architecture and networking courses."
+        highlights:
+          - "Lecturer for CME 334: Network Architecture Design (3 credit hours), teaching cohorts of 10–40 students."
+          - "Delivered lectures, designed assessments, and supervised labs covering modern network architectures."
+          - "Graduate Teaching Fellow and Teaching Assistant for CME 433: Computer Architecture Design (40 students)."
+          - "Mentored students across three academic years (2022–2024), supporting labs, grading, and project guidance."
+
+      - company: "KoLab, University of Saskatchewan"
         position: "Postdoctoral Fellow"
         date:
         start_date: "2026-02"
@@ -39,9 +85,86 @@ cv:
           - "Consistently exceeded client expectations with early delivery and maintained a 5-star Fiverr rating, with repeat clients and testimonials citing strong communication and problem-solving."
 
     publication:
-      - Visit my website for more details
-    projects:
-      - Visit my website for more details
+      - title: "Power-Efficient and Reconfigurable Compute Unit for Multi-Precision AI Inference at the Edge"
+        authors:
+          - "***Muhammad Hamis Haider***"
+          - Hao Zhang
+          - Seok-Bum Ko
+        journal: "IEEE International Symposium on Circuits and Systems (ISCAS)"
+        date: 2026-01
+        doi:
+        url:
+        note: "Accepted, awaiting publication"
+
+      - title: "Memory-Efficient Differential Privacy Accelerator"
+        authors:
+          - "***Muhammad Hamis Haider***"
+          - Nam J. Kim
+          - Hao Zhang
+          - Jorge Arias-Garcia
+          - Hyun J. Lee
+          - Seok-Bum Ko
+        journal: "IEEE Asia Pacific Conference on Circuits and Systems (APCCAS)"
+        date: 2025-01
+        doi:
+        url:
+        note: "Presented, awaiting publication"
+
+      - title: "Exploring Hardware-Driven Privacy Techniques for Trustworthy Machine Learning"
+        authors:
+          - "***Muhammad Hamis Haider***"
+          - Hao Zhang
+          - S. Deivalaskhmi
+          - G. Lakshmi Narayanan
+          - Seok-Bum Ko
+        journal: "Springer (Book Chapter)"
+        date: 2025-01
+        doi:
+        url:
+
+      - title: "Optimized Transformer Models: ℓ′ BERT with CNN-like Pruning and Quantization"
+        authors:
+          - "***Muhammad Hamis Haider***"
+          - Sebastian Valarezo-Plaza
+          - S. Muhsin
+          - Hao Zhang
+          - Seok-Bum Ko
+        journal: "IEEE International Symposium on Circuits and Systems (ISCAS)"
+        date: 2024-01
+        doi:
+        url:
+
+      - title: "Is Neuromorphic Computing the Key to Power-Efficient Neural Networks: A Survey"
+        authors:
+          - "***Muhammad Hamis Haider***"
+          - Hao Zhang
+          - S. Deivalaskhmi
+          - G. Narayanan
+          - Seok-Bum Ko
+        journal: "Springer (Book Chapter)"
+        date: 2024-01
+        doi:
+        url:
+
+      - title: "Decoder Reduction Approximation Scheme for Booth Multipliers"
+        authors:
+          - "***Muhammad Hamis Haider***"
+          - Hao Zhang
+          - Seok-Bum Ko
+        journal: "IEEE Transactions on Computers"
+        date: 2023-01
+        doi:
+        url:
+
+      - title: "Booth-Encoding-Based Energy-Efficient Multipliers for Deep Learning Systems"
+        authors:
+          - "***Muhammad Hamis Haider***"
+          - Hao Zhang
+          - Seok-Bum Ko
+        journal: "IEEE Transactions on Circuits and Systems II: Express Briefs"
+        date: 2022-01
+        doi:
+        url:
     education:
       - institution: "University of Saskatchewan"
         area: "Electrical and Computer Engineering"
