@@ -5,7 +5,6 @@ description:
 img: assets/img/free_raytrace/fiverr_webapp.png
 importance: 1
 category: freelancing
-related_publications: true
 ---
 
 Visit my fiverr portfolio for more details: [Fiverr](https://www.fiverr.com/hyutores)
