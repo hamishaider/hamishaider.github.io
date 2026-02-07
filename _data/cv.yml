@@ -154,30 +154,47 @@ cv:
         date: 2022-01
         doi:
         url:
+    honors:
+      - title: "Best PhD Defense (Nomination)"
+        date: "2025-12"
+        organization: "University of Saskatchewan"
+        summary: "Nominated by the PhD Defense Committee in recognition of the quality, originality, and technical depth of the doctoral thesis."
+      - title: "Teacher-Scholar Doctoral Fellowship"
+        date: "2024-06"
+        organization: "University of Saskatchewan"
+        summary: "Competitive fellowship awarded for excellence in teaching and scholarship, supporting instruction of a 3rd-year undergraduate engineering course."
+      - title: "Graduate Teaching Fellowship"
+        date: "2023-04"
+        organization: "University of Saskatchewan"
+        summary: "Selected to serve as a Graduate Teaching Fellow under the supervision of Dr. Seok-Bum Ko, contributing to course delivery and student mentorship."
     education:
       - institution: "University of Saskatchewan"
         area: "Electrical and Computer Engineering"
         degree: "PhD"
-        grade:
-        date:
         start_date: "2021-09"
-        end_date: "2026-01"
+        end_date: "2025-12"
         location: "Saskatoon, SK, Canada"
-        summary:
+        summary: "Field of Research: Computer Architecture Design"
         highlights:
-          - "Working on the optimization of autonomous vehicles in urban environments"
+          - "CGPA: 93.167% (3.98/4.00)"
+          - "Thesis: Design of Next-Generation Hardware-Accelerated Edge AI Engines for Privacy Preservation"
+          - "Supervisor: Dr. Seok-Bum Ko"
+          - "Designed approximate Booth-encoded multipliers achieving 30–50% power and area reduction with bounded error, enabling hardware-efficient differential privacy integration."
+          - "Developed runtime-reconfigurable multi-precision compute units supporting dynamic accuracy–energy trade-offs for DP-SGD across approximate and full-precision modes."
+          - "Proposed error-sensitivity-aware transformer pruning, reducing active layers and compute by 25–40% while preserving accuracy under differential privacy constraints."
+          - "Developed an end-to-end DP-enabled AI accelerator with on-chip metastability-based Gaussian noise generation, achieving up to 20% reductions in memory traffic, energy, and training time on ResNet and transformer workloads."
+
       - institution: "National University of Sciences and Technology (NUST)"
-        area: "Electrical Engineering"
-        degree: "BS"
-        grade:
-        date:
+        area: "Electrical Engineering (Computer Engineering)"
+        degree: "Bachelor of Science"
         start_date: "2017-09"
         end_date: "2021-06"
-        location: "Lahore, Punjab, Pakistan"
-        summary:
+        location: "Islamabad, Pakistan"
         highlights:
-          - "GPA: 3.9/4.0, ranked 1st out of 100 students"
-          - "Awards: Best Senior Project, High Honor"git 
+          - "CGPA: 3.68/4.00"
+          - "Final Year Project: Object-Avoiding Autonomous Drone for Humanitarian Operations"
+          - "Advisor: Dr. Rehan Ahmed"
+
     skills:
       - label: "Architecture & Hardware Design"
         details: "Computer architecture, accelerator design, system-on-chip (SoC), RISC-V, approximate computing units, edge AI inference and training"
