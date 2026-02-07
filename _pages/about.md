@@ -30,11 +30,16 @@ latest_posts:
 
 I strive to understand how secure, efficient AI systems can be designed to operate reliably in real-world, resource-constrained environments.
 
-As an engineer and researcher, I use computing architectures and hardware systems to explore
+<!-- As an engineer and researcher, I use computing architectures and hardware systems to explore
 how edge AI can be deployed under strict energy, latency, and privacy constraints,
 how security and privacy mechanisms such as [differential privacy]() can be embedded directly into hardware,
-and how architectural choices in [RISC-V](), [FPGA-based acceleration](), and [hardware–software co-design]() impact scalability and deployability.
+and how architectural choices in [RISC-V](), [FPGA-based acceleration](), and [hardware–software co-design]() impact scalability and deployability. -->
 
-My work focuses on AI accelerators, secure SoCs, near-data and multi-precision computing, with applications in privacy-sensitive AI and large language models for regulated domains such as healthcare. I have hands-on experience with Verilog/SystemVerilog, UVM-based verification, and system-level design, and have led efforts to standardize RTL and verification frameworks, reducing project setup and onboarding time by approximately [40–60%]().
+As an engineer and researcher, I use computing architectures and hardware systems to explore
+how edge AI can be deployed under strict energy, latency, and privacy constraints,
+how security and privacy mechanisms such as differential privacy can be embedded directly into hardware,
+and how architectural choices in RISC-V, FPGA-based acceleration, and hardware–software co-design impact scalability and deployability.
+
+My work focuses on AI accelerators, secure SoCs, near-data and multi-precision computing, with applications in privacy-sensitive AI and large language models for regulated domains such as healthcare. I have hands-on experience with Verilog/SystemVerilog, UVM-based verification, and system-level design, and have led efforts to standardize RTL and verification frameworks, reducing project setup and onboarding time by approximately 40–60%.
 
 I am currently a postdoctoral researcher in Electrical and Computer Engineering at the University of Saskatchewan, working with Dr. Seokbum Ko.
