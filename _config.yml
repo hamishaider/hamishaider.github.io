@@ -9,10 +9,11 @@ last_name: Haider
 contact_note: >
   Contact me via email!
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  
+  RTL Design Engineer with hands-on experience in Verilog/SystemVerilog, RISC-V SoCs, FPGA acceleration, UVM verification, and synthesis-aware digital design.
 footer_text: >
-  
-keywords: jekyll, jekyll-theme, academic-website, portfolio-website # add your own keywords or leave empty
+
+keywords: RTL design engineer, digital design, Verilog, SystemVerilog, UVM verification, RISC-V, SoC design, FPGA design, ASIC design, hardware accelerators, RTL microarchitecture, synthesis, timing analysis, hardware-software co-design, edge computing hardware, hamis haider, hamis
+# add your own keywords or leave empty
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: favicon.ico # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
