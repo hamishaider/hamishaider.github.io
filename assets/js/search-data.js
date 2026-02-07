@@ -383,41 +383,41 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "projects-approximate-computation-units",
-          title: 'Approximate Computation Units',
-          description: "Novel Compute Units for enabling compressed AI at Edge",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/1_project/";
-            },},{id: "projects-efficient-approximation-in-ai-cus",
-          title: 'Efficient Approximation in AI CUs',
-          description: "Improving the efficiency of Approximate Compute Units for AI on Edge via algorithmic optimizations.",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/2_project/";
             },},{id: "projects-novel-approximate-multi-precision-bfloat16-multiplier",
           title: 'Novel Approximate Multi-precision Bfloat16 multiplier',
           description: "Improving the efficiency of Approximate Compute Units for AI on Edge via algorithmic optimizations.",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/3_project/";
-            },},{id: "projects-reconfigurable-ai-compute-units",
-          title: 'Reconfigurable AI Compute Units',
-          description: "",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/4_project/";
-            },},{id: "projects-optimizing-llms-for-efficient-inference-on-edge",
-          title: 'Optimizing LLMS for efficient inference on Edge',
-          description: "",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/5_project/";
+              window.location.href = "/projects/bf16_project/";
             },},{id: "projects-novel-ai-accelerator-with-native-differential-privacy",
           title: 'Novel AI Accelerator with Native Differential Privacy',
           description: "",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/6_project/";
+              window.location.href = "/projects/dp_project/";
+            },},{id: "projects-efficient-approximation-in-ai-cus",
+          title: 'Efficient Approximation in AI CUs',
+          description: "Improving the efficiency of Approximate Compute Units for AI on Edge via algorithmic optimizations.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/dra_project/";
+            },},{id: "projects-optimizing-llms-for-efficient-inference-on-edge",
+          title: 'Optimizing LLMS for efficient inference on Edge',
+          description: "",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/llm_project/";
+            },},{id: "projects-approximate-computation-units",
+          title: 'Approximate Computation Units',
+          description: "Novel Compute Units for enabling compressed AI at Edge",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/po2_project/";
             },},{id: "projects-ray-traced-door-simulation-webapp",
           title: 'Ray-traced Door Simulation Webapp',
           description: "",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/7_project/";
+              window.location.href = "/projects/raytrace_project/";
+            },},{id: "projects-reconfigurable-ai-compute-units",
+          title: 'Reconfigurable AI Compute Units',
+          description: "",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/reconf_project/";
             },},{id: "teachings-data-science-fundamentals",
           title: 'Data Science Fundamentals',
           description: "This course covers the foundational aspects of data science, including data collection, cleaning, analysis, and visualization. Students will learn practical skills for working with real-world datasets.",
