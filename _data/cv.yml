@@ -10,11 +10,10 @@ cv:
     # - network: "Fiverr"
     #   username: "hyutores"
     #   url: https://www.fiverr.com # Add the full URL here
-
-  sections:
-    Professional Summary:
+  summary:
       - I design secure and efficient computing architectures for deployable AI systems, with a focus on edge computing and privacy-sensitive applications. My work spans RISC-V systems, FPGA acceleration, and hardware–software co-design, including support for large language models in regulated domains. I work close to the hardware, developing AI accelerators and secure SoCs using near-data and multi-precision computing, with hands-on RTL design in Verilog/SystemVerilog and UVM-based verification.
       - I emphasize scalable engineering practices by building reusable frameworks and streamlined workflows that improve productivity and enable rapid, high-quality system development.
+  sections:
     experience:
       - company: "KoLab, University of Saskatchewan"
         position: "Postdoctoral Fellow"
