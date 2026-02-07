@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: [AI accelerator design]() | RISC-V | Student Supervision
+subtitle: <a href="#">AI accelerator design</a> | RISC-V | Student Supervision
 
 profile:
   align: right
