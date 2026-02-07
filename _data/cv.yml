@@ -154,19 +154,28 @@ cv:
         date: 2022-01
         doi:
         url:
+
     awards:
       - title: "Best PhD Defense (Nomination)"
+        authors: 
+          - "University of Saskatchewan"
         date: "2025-12"
         organization: "University of Saskatchewan"
         summary: "Nominated by the PhD Defense Committee in recognition of the quality, originality, and technical depth of the doctoral thesis."
       - title: "Teacher-Scholar Doctoral Fellowship"
+        authors: 
+          - "University of Saskatchewan"
         date: "2024-06"
         organization: "University of Saskatchewan"
         summary: "Competitive fellowship awarded for excellence in teaching and scholarship, supporting instruction of a 3rd-year undergraduate engineering course."
       - title: "Graduate Teaching Fellowship"
+        authors: 
+          - "University of Saskatchewan"
         date: "2023-04"
         organization: "University of Saskatchewan"
         summary: "Selected to serve as a Graduate Teaching Fellow under the supervision of Dr. Seok-Bum Ko, contributing to course delivery and student mentorship."
+        
+
     education:
       - institution: "University of Saskatchewan"
         area: "Electrical and Computer Engineering"
