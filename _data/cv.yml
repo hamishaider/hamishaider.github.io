@@ -62,17 +62,6 @@ cv:
           - "Delivered lectures, designed assessments, and supervised labs covering modern network architectures."
           - "Graduate Teaching Fellow and Teaching Assistant for CME 433: Computer Architecture Design (40 students)."
           - "Mentored students across three academic years (2022–2024), supporting labs, grading, and project guidance."
-
-      - company: "KoLab, University of Saskatchewan"
-        position: "Postdoctoral Fellow"
-        date:
-        start_date: "2026-02"
-        end_date: "present"
-        location: "Saskatoon, SK, Canada"
-        summary:
-        highlights:
-          - "Developed deep learning models for the detection of gravitational waves in LIGO data"
-          - "Published [3 peer-reviewed research papers](https://example.com) about the project and results"
       - company: "Freelancer"
         position: "Software Engineer"
         date:
@@ -188,7 +177,7 @@ cv:
         summary:
         highlights:
           - "GPA: 3.9/4.0, ranked 1st out of 100 students"
-          - "Awards: Best Senior Project, High Honor"
+          - "Awards: Best Senior Project, High Honor"git 
     skills:
       - label: "Architecture & Hardware Design"
         details: "Computer architecture, accelerator design, system-on-chip (SoC), RISC-V, approximate computing units, edge AI inference and training"
