@@ -433,7 +433,7 @@ ninja.data = [{
         title: 'CV',
         section: 'Socials',
         handler: () => {
-          window.open("/assets/rendercv/rendercv_output/CV.pdf", "_blank");
+          window.open("/assets/rendercv/rendercv_output/Muhammad_Hamis_Haider_CV.pdf", "_blank");
         },
       },{
         id: 'social-email',
