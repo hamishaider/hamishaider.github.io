@@ -2,7 +2,7 @@ cv:
   name: "Muhammad Hamis Haider"
   location: "Canada"
   email: "hamis.haider@gmail.com"
-  phone: "+1-639-2954265"
+  # phone: "+1-639-2954265"
   website: https://hamishaider.com
   social_networks:
     - network: "LinkedIn"
@@ -60,16 +60,16 @@ cv:
           - "Pioneered RISC-V architecture research at NUST."
           - "Contributed to the design of Pakistan’s first in-house RISC-V microcontroller."
           - "Supported RTL development and architectural validation for custom processor designs."
-      - company: "Freelancer"
-        position: "Software Engineer"
-        date:
-        start_date: "2018-08"
-        end_date: "present"
-        summary: "Selective contract-based software and web engineering projects delivered for external clients. Visit my website for more details."
-        highlights:
-          - "Developed a 3D door placement and visualization engine for an online retail platform using ray-traced lighting and shadowing to generate near-photorealistic room previews from user images with ~30% improved loading speed than competitors."
-          - "Contributed across full-stack development and performance optimization, reducing page load times by approximately 30–55% across multiple client websites."
-          - "Consistently exceeded client expectations with early delivery and maintained a 5-star Fiverr rating, with repeat clients and testimonials citing strong communication and problem-solving."
+      # - company: "Freelancer"
+      #   position: "Software Engineer"
+      #   date:
+      #   start_date: "2018-08"
+      #   end_date: "present"
+      #   summary: "Selective contract-based software and web engineering projects delivered for external clients. Visit my website for more details."
+      #   highlights:
+      #     - "Developed a 3D door placement and visualization engine for an online retail platform using ray-traced lighting and shadowing to generate near-photorealistic room previews from user images with ~30% improved loading speed than competitors."
+      #     - "Contributed across full-stack development and performance optimization, reducing page load times by approximately 30–55% across multiple client websites."
+      #     - "Consistently exceeded client expectations with early delivery and maintained a 5-star Fiverr rating, with repeat clients and testimonials citing strong communication and problem-solving."
     education:
       - institution: "University of Saskatchewan"
         area: "Electrical and Computer Engineering"

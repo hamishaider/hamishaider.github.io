@@ -1,0 +1,81 @@
+cv:
+  name: "Muhammad Hamis Haider"
+  location: "Canada"
+  email: "hamis.haider@gmail.com"
+  # phone: "+1-639-2954265"
+  website: https://hamishaider.com
+  social_networks:
+    - network: "LinkedIn"
+      username: "hamishaider"
+
+  sections:
+    Professional Summary:
+      - "RTL Design Engineer with strong research experience in digital design, RISC-V–based SoCs, and FPGA acceleration. Hands-on expertise in Verilog/SystemVerilog, RTL microarchitecture, synthesis-aware design, and UVM-based verification. Background includes tapeout-style flows, reusable RTL IP, and hardware–software co-design. Refer to my website for my publications and projects."
+
+    experience:
+      - company: "KoLab, University of Saskatchewan"
+        position: "Postdoctoral Fellow – RTL & SoC Design"
+        start_date: "2026-01"
+        end_date: "present"
+        location: "Saskatoon, SK, Canada"
+        highlights:
+          - "I am currently researching novel RISC-V vector co-processors for cycle accurate private AI inference and training at Edge for healthcare applications. We are targeting a ~20% decrease in energy consumption compared to the exiting state-of-the-art co-processors."
+          - "I am working closely with industry partners to enable next-gen AI accelerator ASIC SoCs with built-in differential privacy to enable private AI in wearables and mobile devices. Reducing the differential privacy overhead by ~30-40%."
+          - "I designed custom RTL accelerators for AI accelerationa at Edge improving throughput by ~20% under fixed power budgets."
+          - "I develop reusable, parameterized RTL IP blocks integrated into RISC-V–based SoC platforms for tightly coupled co-processors for secure AI inference at Edge."
+          - "I optimized datapaths and memory interfaces, reducing latency and on-chip memory traffic by ~20% in multiple approximate computation units for AI inference and training on FPGA and ASIC SoCs."
+
+      - company: "KoLab, University of Saskatchewan"
+        position: "Doctoral Researcher – Digital & RTL Design"
+        start_date: "2021-09"
+        end_date: "2025-12"
+        location: "Saskatoon, SK, Canada"
+        highlights:
+          - "I designed novel RTL approximate compute units achieving 30–60% reductions in area and power versus baseline designs for AI inference at Edge."
+          - "I implemented multi-precision and reconfigurable datapaths enabling up to ~50% compute cost reduction for AI trianing workloads."
+          - "I developed RTL blocks validated through simulation and FPGA prototyping using synthesis-driven flows for AI accelerator design with native differential privacy."
+
+      # - company: "National University of Sciences and Technology (NUST)"
+      #   position: "Research Assistant – Computer Architecture"
+      #   start_date: "2019-01"
+      #   end_date: "2019-12"
+      #   location: "Islamabad, Pakistan"
+      #   highlights:
+      #     - "Contributed to early RISC-V processor development and architectural validation."
+      #     - "Supported RTL development, simulation, and functional verification of custom cores."
+
+      # - company: "University of Saskatchewan"
+      #   position: "Sessional Lecturer & Teaching Fellow (Computer Architecture)"
+      #   start_date: "2023-01"
+      #   end_date: "2025-12"
+      #   location: "Saskatoon, SK, Canada"
+      #   highlights:
+
+    education:
+      - institution: "University of Saskatchewan"
+        degree: "PhD"
+        area: "Electrical and Computer Engineering"
+        start_date: "2021-09"
+        end_date: "2025-12"
+        location: "Saskatoon, SK, Canada"
+
+      # - institution: "National University of Sciences and Technology (NUST)"
+      #   degree: "BSc"
+      #   area: "Electrical Engineering (Computer Engineering)"
+      #   start_date: "2017-09"
+      #   end_date: "2021-06"
+      #   location: "Islamabad, Pakistan"
+
+    skills:
+      - label: "Architecture & Hardware Design"
+        details: "Computer architecture, accelerator design, system-on-chip (SoC), RISC-V, approximate computing units, edge AI inference and training"
+      - label: "AI & Model Optimization"
+        details: "Differentially private AI models, edge-optimized architectures, training and inference optimization for large language models (GPT, BERT)"
+      - label: "Programming Languages"
+        details: "SystemVerilog, Verilog, C++, Python (PyTorch, TensorFlow)"
+      - label: "EDA Tools & Platforms"
+        details: "Intel Quartus, Xilinx Vivado, Synopsys [Design Compiler, Power Compiler, VCS]"
+      - label: "Languages"
+        details: "English (fluent, CELPIP-G[L/R/W/S]: 12/11/12/11), Urdu (native)"
+
+  sort_entries: "none"
