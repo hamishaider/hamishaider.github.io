@@ -14,19 +14,19 @@ cv:
 
   sections:
     Professional Summary:
-      - I design secure and efficient computing architectures for deployable AI systems, with a focus on edge computing and privacy-sensitive applications. My work spans RISC-V systems, FPGA acceleration, and hardware–software co-design, including support for large language models in regulated domains. I work close to the hardware, developing AI accelerators and secure SoCs using near-data and multi-precision computing, with hands-on RTL design in Verilog/SystemVerilog and UVM-based verification.
-      - I emphasize scalable engineering practices by building reusable frameworks and streamlined workflows that improve productivity and enable rapid, high-quality system development.
+      - I am a Postdoctoral Fellow with strong research experience in digital design, RISC-V–based SoCs, and FPGA acceleration. I have hands-on expertise in Verilog/SystemVerilog, RTL microarchitecture, synthesis-aware design, and UVM-based verification. My experience includes tapeout-style flows, reusable RTL IP, and hardware–software co-design. Please refer to my website for my publications and projects.
     experience:
       - company: "KoLab, University of Saskatchewan"
-        position: "Postdoctoral Fellow (ECE)"
+        position: "Postdoctoral Fellow – RTL & SoC Design"
         start_date: "2026-01"
         end_date: "present"
         location: "Saskatoon, SK, Canada"
-        summary: "Postdoctoral research focused on secure, privacy-preserving edge AI systems and RISC-V–based hardware acceleration under the supervision of Dr. Seok-Bum Ko."
         highlights:
-          - "Designed novel edge AI accelerators enabling private and encrypted inference and training for sensitive applications with a ~20% throughput increase."
-          - "Developing RISC-V-baed privacy-preserving AI accelerators integrating differential privacy, cryptographic primitives, and hardware–software co-design."
-          - "Investigating homomorphic encryption and compute-in-memory techniques to reduce latency, energy, and memory overhead in secure AI workloads."
+          - "I am currently researching novel RISC-V vector co-processors for cycle accurate private AI inference and training at Edge for healthcare applications. We are targeting a ~20% decrease in energy consumption compared to the exiting state-of-the-art co-processors."
+          - "I am working closely with industry partners to enable next-gen AI accelerator ASIC SoCs with built-in differential privacy to enable private AI in wearables and mobile devices. Reducing the differential privacy overhead by ~30-40%."
+          - "I designed custom RTL accelerators for AI accelerationa at Edge improving throughput by ~20% under fixed power budgets."
+          - "I develop reusable, parameterized RTL IP blocks integrated into RISC-V–based SoC platforms for tightly coupled co-processors for secure AI inference at Edge."
+          - "I optimized datapaths and memory interfaces, reducing latency and on-chip memory traffic by ~20% in multiple approximate computation units for AI inference and training on FPGA and ASIC SoCs."
 
       - company: "KoLab, University of Saskatchewan"
         position: "Doctoral Researcher, Electrical and Computer Engineering"
@@ -35,10 +35,11 @@ cv:
         location: "Saskatoon, SK, Canada"
         summary: "PhD research under Dr. Seok-Bum Ko focused on efficient, reliable, and secure computing architectures for edge AI systems."
         highlights:
-          - "Designed novel approximate and reconfigurable computing architectures for energy-efficient AI acceleration with up to 60% resource consumption reduction."
-          - "Developed hardware–software co-designed systems enabling AI deployment on resource-constrained edge platforms with up to ~50% reduction in LLM computation cost."
-          - "Conducted applied research on reliable and secure AI systems for healthcare applications."
           - "Nominated for the Best Thesis Defence Award (2026). Awaiting decision."
+          - "I designed novel RTL approximate compute units achieving 30–60% reductions in area and power versus baseline designs for AI inference at Edge."
+          - "I implemented multi-precision and reconfigurable datapaths enabling up to ~50% compute cost reduction for AI trianing workloads."
+          - "I developed RTL blocks validated through simulation and FPGA prototyping using synthesis-driven flows for AI accelerator design with native differential privacy."
+
       - company: "University of Saskatchewan"
         position: "Sessional Lecturer & Graduate Teaching Fellow (ECE)"
         start_date: "2023-01"
