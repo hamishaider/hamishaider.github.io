@@ -14,7 +14,7 @@ cv:
 
   sections:
     Professional Summary:
-      - I am a Postdoctoral Fellow with strong research experience in digital design, RISC-V–based SoCs, and FPGA acceleration. I have hands-on expertise in Verilog/SystemVerilog, RTL microarchitecture, synthesis-aware design, and UVM-based verification. My experience includes tapeout-style flows, reusable RTL IP, and hardware–software co-design. Please refer to my website for my publications and projects.
+      - I am a Postdoctoral Fellow with strong research experience in digital design, RISC-V–based SoCs, and FPGA acceleration. I have hands-on expertise in Verilog/SystemVerilog, RTL microarchitecture, synthesis-aware design, and UVM-based verification. My experience includes tapeout-style flows, reusable RTL IP, and hardware–software co-design. Please refer to my website for my latest publications and projects.
     experience:
       - company: "KoLab, University of Saskatchewan"
         position: "Postdoctoral Fellow – RTL & SoC Design"
