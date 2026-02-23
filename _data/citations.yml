@@ -1,16 +1,16 @@
 metadata:
-  last_updated: '2026-02-06'
+  last_updated: '2026-02-23'
 papers:
   6_5XFCIAAAAJ:BqipwSGYUEgC:
     citations: 0
     title: Reconfigurable Multi-Precision Multipliers for Energy-Efficient CNN Acceleration for Visual AI in ICT Systems
     year: '2025'
   6_5XFCIAAAAJ:JV2RwH3_ST0C:
-    citations: 16
+    citations: 17
     title: Decoder reduction approximation scheme for booth multipliers
     year: '2023'
   6_5XFCIAAAAJ:M3NEmzRMIkIC:
-    citations: 31
+    citations: 33
     title: Booth encoding-based energy efficient multipliers for deep learning systems
     year: '2023'
   6_5XFCIAAAAJ:YFjsv_pBGBYC:
