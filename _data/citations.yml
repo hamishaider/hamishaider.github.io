@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-03-02'
+  last_updated: '2026-03-18'
 papers:
   6_5XFCIAAAAJ:BqipwSGYUEgC:
     citations: 0
@@ -14,7 +14,7 @@ papers:
     title: Decoder reduction approximation scheme for booth multipliers
     year: '2023'
   6_5XFCIAAAAJ:M3NEmzRMIkIC:
-    citations: 34
+    citations: 35
     title: Booth encoding-based energy efficient multipliers for deep learning systems
     year: '2023'
   6_5XFCIAAAAJ:YFjsv_pBGBYC:
