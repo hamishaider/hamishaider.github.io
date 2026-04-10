@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-03-18'
+  last_updated: '2026-04-10'
 papers:
   6_5XFCIAAAAJ:BqipwSGYUEgC:
     citations: 0
@@ -14,9 +14,13 @@ papers:
     title: Decoder reduction approximation scheme for booth multipliers
     year: '2023'
   6_5XFCIAAAAJ:M3NEmzRMIkIC:
-    citations: 35
+    citations: 36
     title: Booth encoding-based energy efficient multipliers for deep learning systems
     year: '2023'
+  6_5XFCIAAAAJ:O3NaXMp0MMsC:
+    citations: 0
+    title: 'An Introduction to AI for Clinicians: Tutorial'
+    year: '2026'
   6_5XFCIAAAAJ:YFjsv_pBGBYC:
     citations: 0
     title: 'FFT-based deep learning for efficient combustion instability prediction: A comparative study of time and frequency-domain approaches'
