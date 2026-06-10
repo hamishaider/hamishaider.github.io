@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-05-13'
+  last_updated: '2026-06-10'
 papers:
   6_5XFCIAAAAJ:BqipwSGYUEgC:
     citations: 0
@@ -10,11 +10,11 @@ papers:
     title: Memory-Efficient Differential Privacy Accelerator
     year: '2025'
   6_5XFCIAAAAJ:JV2RwH3_ST0C:
-    citations: 20
+    citations: 21
     title: Decoder reduction approximation scheme for booth multipliers
     year: '2023'
   6_5XFCIAAAAJ:M3NEmzRMIkIC:
-    citations: 37
+    citations: 41
     title: Booth encoding-based energy efficient multipliers for deep learning systems
     year: '2023'
   6_5XFCIAAAAJ:O3NaXMp0MMsC:
@@ -33,3 +33,7 @@ papers:
     citations: 4
     title: "Optimized Transformer Models: \u2113\u2032 BERT with CNN-like Pruning and Quantization"
     year: '2024'
+  6_5XFCIAAAAJ:ns9cj8rnVeAC:
+    citations: 0
+    title: Exploring Hardware-Driven Privacy Techniques for Trustworthy Machine Learning
+    year: '2026'
