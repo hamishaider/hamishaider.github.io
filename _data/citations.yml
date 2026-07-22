@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-06-10'
+  last_updated: '2026-07-22'
 papers:
   6_5XFCIAAAAJ:BqipwSGYUEgC:
     citations: 0
@@ -10,19 +10,27 @@ papers:
     title: Memory-Efficient Differential Privacy Accelerator
     year: '2025'
   6_5XFCIAAAAJ:JV2RwH3_ST0C:
-    citations: 21
+    citations: 27
     title: Decoder reduction approximation scheme for booth multipliers
     year: '2023'
   6_5XFCIAAAAJ:M3NEmzRMIkIC:
-    citations: 41
+    citations: 42
     title: Booth encoding-based energy efficient multipliers for deep learning systems
     year: '2023'
+  6_5XFCIAAAAJ:NaGl4SEjCO4C:
+    citations: 0
+    title: Power-Efficient and Reconfigurable Compute Unit for Multi-Precision AI Inference at the Edge
+    year: '2026'
   6_5XFCIAAAAJ:O3NaXMp0MMsC:
     citations: 0
     title: 'An Introduction to AI for Clinicians: Tutorial'
     year: '2026'
+  6_5XFCIAAAAJ:RGFaLdJalmkC:
+    citations: 0
+    title: Design of Next-Generation Hardware-Accelerated Edge AI Engines for Privacy Preservation
+    year: '2025'
   6_5XFCIAAAAJ:YFjsv_pBGBYC:
-    citations: 1
+    citations: 2
     title: 'FFT-based deep learning for efficient combustion instability prediction: A comparative study of time and frequency-domain approaches'
     year: '2026'
   6_5XFCIAAAAJ:blknAaTinKkC:
