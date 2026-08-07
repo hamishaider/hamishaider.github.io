@@ -1,16 +1,16 @@
 metadata:
-  last_updated: '2026-07-22'
+  last_updated: '2026-08-07'
 papers:
   6_5XFCIAAAAJ:BqipwSGYUEgC:
     citations: 0
     title: Reconfigurable Multi-Precision Multipliers for Energy-Efficient CNN Acceleration for Visual AI in ICT Systems
     year: '2025'
   6_5XFCIAAAAJ:GnPB-g6toBAC:
-    citations: 0
+    citations: 1
     title: Memory-Efficient Differential Privacy Accelerator
     year: '2025'
   6_5XFCIAAAAJ:JV2RwH3_ST0C:
-    citations: 27
+    citations: 29
     title: Decoder reduction approximation scheme for booth multipliers
     year: '2023'
   6_5XFCIAAAAJ:M3NEmzRMIkIC:
@@ -30,12 +30,12 @@ papers:
     title: Design of Next-Generation Hardware-Accelerated Edge AI Engines for Privacy Preservation
     year: '2025'
   6_5XFCIAAAAJ:YFjsv_pBGBYC:
-    citations: 2
+    citations: 3
     title: 'FFT-based deep learning for efficient combustion instability prediction: A comparative study of time and frequency-domain approaches'
     year: '2026'
   6_5XFCIAAAAJ:blknAaTinKkC:
     citations: 6
-    title: 'Is Neuromorphic Computing the Key to Power-Efficient Neural Networks: A Survey'
+    title: 'Is neuromorphic computing the key to power-efficient neural networks: A survey'
     year: '2024'
   6_5XFCIAAAAJ:hMod-77fHWUC:
     citations: 4
