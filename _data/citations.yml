@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-08-07'
+  last_updated: '2026-08-12'
 papers:
   6_5XFCIAAAAJ:BqipwSGYUEgC:
     citations: 0
@@ -30,7 +30,7 @@ papers:
     title: Design of Next-Generation Hardware-Accelerated Edge AI Engines for Privacy Preservation
     year: '2025'
   6_5XFCIAAAAJ:YFjsv_pBGBYC:
-    citations: 3
+    citations: 4
     title: 'FFT-based deep learning for efficient combustion instability prediction: A comparative study of time and frequency-domain approaches'
     year: '2026'
   6_5XFCIAAAAJ:blknAaTinKkC:
